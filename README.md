@@ -1,13 +1,16 @@
+<h2>First project ever:</h2>
+<p><h3>Brain-games</h3>
+
+<h3>Brain-even:</h3>
+<p><h4>https://asciinema.org/a/9MXgEPcvxaYZBZlDhmdIiisNf</h4></p>
+
+
+Brain-calc
+
+
+Brain-gcd
+
+
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/Artemka1989/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/Artemka1989/python-project-49/actions)
 <a href="https://codeclimate.com/github/Artemka1989/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/8ba36e38c6ba95520ab9/maintainability" /></a>
-
-Brain-even
-https://asciinema.org/a/SlQsNQYg7S1lF9Ic8hr1Nsc6d
-
-Brain-calc
-https://asciinema.org/a/B9KtSUxJmTiYxCDt0pHV2EYSD
-
-Brain-gcd
-https://asciinema.org/a/3fXJdpFYlYjcZUp1a8UuuFgod
-
