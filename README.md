@@ -5,11 +5,11 @@
 <p><h4>https://asciinema.org/a/9MXgEPcvxaYZBZlDhmdIiisNf</h4></p>
 
 
-Brain-calc
+<h3>Brain-calc</h3>
+<p><h4>https://asciinema.org/a/sjK2WElNUf5U7Hwu87wQ1TbW0</h4></p>
 
-
-Brain-gcd
-
+<h3>Brain-gcd</h3>
+<p><h4>https://asciinema.org/a/xCaVgCaIjrIWDuKm7N4mJePS3</h4></p>
 
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/Artemka1989/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/Artemka1989/python-project-49/actions)
