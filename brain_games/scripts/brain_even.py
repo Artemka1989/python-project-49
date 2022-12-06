@@ -12,7 +12,7 @@ def main():
     print(f"Congratulations, {name}!")
     for i in range(1, 4):
         num = random.randint(1, 100)
-        print(f"Question:{num}")
+        print(f"Question: {num}")
         answer = prompt.string("Your answer: ")
         q = even(num)
         if str(answer) == str(q):

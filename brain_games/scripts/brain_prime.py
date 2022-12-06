@@ -10,7 +10,7 @@ def main():
     print('Answer "yes" if the number is prime, Otherwise answer "no".')
     for i in range(1, 4):
         num = random.randint(1, 100)
-        print(f"Question:{num}")
+        print(f"Question: {num}")
         answer = prompt.string("Your answer: ")
         q = prime(num)
         if str(answer) == str(q):
