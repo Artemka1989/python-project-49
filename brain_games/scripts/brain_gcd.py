@@ -2,7 +2,7 @@
 
 import prompt
 import random
-print("Welcome to the brain-games!")
+print("Welcome to the Brain Games!")
 
 
 def main():
