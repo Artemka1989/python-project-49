@@ -14,7 +14,6 @@ def main():
         answer = prompt.string("Your answer: ")
         q = prime(num)
         if str(answer) == str(q):
-            print(answer, q)
             print("Correct!")
         else:
             print(f"'{answer}' is wrong answer ;(. Correct answer was '{q}'.")
