@@ -21,7 +21,7 @@ def main():
                 print("Correct!")
             else:
                 print(f"'{a}' was a wrong answer ;(. Correct answer was '{q}'.")
-                print(f"Let's try again {user} ")
+                print(f"Let's try again, {user}!")
                 i -= 1
                 break
         else:
