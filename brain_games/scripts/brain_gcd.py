@@ -9,7 +9,7 @@ def main():
     i = 0
     name = prompt.string("May I have your name? ")
     print('Hello, ' + name + '!')
-    print("Find the greatest common division of given numbers")
+    print("Find the greatest common divisor of given numbers.")
     for i in range(1, 4):
         num = random.randint(1, 100)
         num_1 = random.randint(1, 100)
