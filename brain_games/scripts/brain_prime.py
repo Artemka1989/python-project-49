@@ -7,7 +7,7 @@ from brain_games import cli
 
 def main():
     user = cli.welcome_user()
-    print('Answer "yes" if the number is prime. Otherwise answer "no".')
+    print('Answer "yes" if given number is prime. Otherwise answer "no".')
     for i in range(1, 4):
         num = random.randint(1, 100)
         print(f"Question: {num}")
