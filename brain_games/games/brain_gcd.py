@@ -6,6 +6,7 @@ from brain_games import cli
 
 def games():
     name = cli.welcome_user()
+    print("Find the greatest common divisor of given numbers.")
     for i in range(1, 4):
         num = random.randint(1, 100)
         num_1 = random.randint(1, 100)
