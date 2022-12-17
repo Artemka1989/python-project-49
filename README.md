@@ -1,7 +1,23 @@
+# Brain-games
 
-## First project ever:
+Five simple brain-games.If give three correct answers you will win.
+One wrong answer your lose and will start from first attempt.
 
-<p><h3>Brain-games</h3>
+## Setup:
+
+Using Makefile:
+
+```bash
+$ make install
+$ make build
+$ make package-install
+```
+
+## Without instalation
+
+```bash
+$ python3 -m brain_games.scripts.brain_games
+```
 
 ### Brain-even:
 
@@ -20,6 +36,15 @@
 
 ### Brain-prime
 [![asciicast](https://asciinema.org/a/h8nP0dhl811QLiwoEZ7UC2EBG.svg)](https://asciinema.org/a/h8nP0dhl811QLiwoEZ7UC2EBG)
+
+### Links:
+
+This project was build using these tools:
+| Tools | Description |
+| ----------- | ----------- |
+| [poetry](https://poetry.eustace.io/) | "Python dependency management and packaging made easy" |
+| [flake8](https://flake8.pycqa.org/) | "Tool For Style Guide Enforcement" | 
+
 
 ### Hexlet tests and linter status:
 
