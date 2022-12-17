@@ -1,4 +1,4 @@
-#! usr/bin/env/python3
+#!/usr/bin/env python3
 import prompt
 from brain_games import cli
 import random
