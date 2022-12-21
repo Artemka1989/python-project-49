@@ -20,12 +20,10 @@ $ python3 -m brain_games.scripts.brain_games
 ```
 
 ### Brain-even:
-
 [![asciicast](https://asciinema.org/a/9asshnzyuAsArvHb0H8FjcXLk.svg)](https://asciinema.org/a/9asshnzyuAsArvHb0H8FjcXLk)
 
 
 ### Brain-calc:
-
 [![asciicast](hhttps://asciinema.org/a/F4MWNwM1oBsjGqhUwEzJxeqa8.svg)](https://asciinema.org/a/F4MWNwM1oBsjGqhUwEzJxeqa8)
 
 ### Brain-gcd
