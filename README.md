@@ -26,7 +26,7 @@ $ python3 -m brain_games.scripts.brain_games
 
 ### Brain-calc:
 
-[![asciicast](hhttps://asciinema.org/a/F4MWNwM1oBsjGqhUwEzJxeqa8.svg)](https://asciinema.org/a/F4MWNwM1oBsjGqhUwEzJxeqa8)
+[![asciicast](https://asciinema.org/a/F4MWNwM1oBsjGqhUwEzJxeqa8.svg)](https://asciinema.org/a/F4MWNwM1oBsjGqhUwEzJxeqa8)
 
 ### Brain-gcd
 [![asciicast](https://asciinema.org/a/lseLS0DJwYqe7KVDntlK3d55u.svg)](https://asciinema.org/a/lseLS0DJwYqe7KVDntlK3d55u)
