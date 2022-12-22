@@ -7,7 +7,7 @@ game = "What number is missing in the progression?"
 def games():
     num = random.randint(2, 10)
     num_1 = num - 1
-    ran = random.randint(5, 11)
+    ran = random.randint(6, 11)
     num_2 = random.randint(1, 5)
     lst = []
     for i in range(1, ran):
