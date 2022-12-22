@@ -12,6 +12,6 @@ def correct(name):
     print(f"Congratulations, {name}!")
 
 
-def wrong(answer, name, question):
-    print(f"'{answer}' is wrong answer ;(. Correct answer was '{question}'.")
+def wrong(answer, name, calc):
+    print(f"'{answer}' is wrong answer ;(. Correct answer was '{calc}'.")
     print(f"Let's try again, {name}!")
