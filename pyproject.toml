@@ -2,7 +2,11 @@
 name = "hexlet-code"
 version = "0.1.0"
 description = ""
+repository = "https://github.com/python-poetry/poetry"
 authors = ["Artemka1989 <kurnev.ar@yandex.ru>"]
+classifiers = [
+    "Programming Language :: Python :: 3.9 :: Education :: poetry"
+]
 readme = "README.md"
 packages = [
   { include = "brain_games" },
