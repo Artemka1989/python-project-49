@@ -1,13 +1,14 @@
-#!/usr/bin/env python3
 import random
 
-game = "Find the greatest common divisor of given numbers."
+GAME = 'Find the greatest common divisor of given numbers.'
+MAX_NUM = 100  # Максимальное значение первого числа
+MAX_NUM_1 = 100  # Максимальное значение второго числа
 
 
-def games():
-    num = random.randint(1, 100)
-    num_1 = random.randint(1, 100)
-    question = f"Question: {num} {num_1}"
+def play():
+    num = random.randint(0, MAX_NUM)
+    num_1 = random.randint(0, MAX_NUM_1)
+    question = f'Question: {num} {num_1}'
     if num > num_1:
         temp = num_1
     else:

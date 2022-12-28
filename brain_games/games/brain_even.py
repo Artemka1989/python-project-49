@@ -1,12 +1,12 @@
-#!/usr/bin/env python3
 import random
 
 
-game = 'Answer "yes" if the number is even, otherwise answer "no".'
+GAME = 'Answer "yes" if the number is even, otherwise answer "no".'
+MAX_NUM = 100  # Максимальное число в игре
 
 
-def games():
-    num = random.randint(1, 100)
+def play():
+    num = random.randint(0, MAX_NUM)
     question = f'Question: {num}'
     if num % 2 == 0:
         calc = 'yes'

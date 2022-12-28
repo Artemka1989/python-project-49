@@ -4,7 +4,7 @@ from brain_games import engine
 
 
 def main():
-    engine.logic(brain_progression.game, brain_progression.games)
+    engine.logic(brain_progression)
 
 
 if __name__ == "__main__":

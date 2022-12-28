@@ -2,13 +2,15 @@ from brain_games import cli
 import prompt
 
 
-def logic(game, games):
+WIN = 3
+
+
+def logic(game):
     name = cli.welcome_user()
-    print(game)
+    print(game.GAME)
     score = 0
-    WIN = 3
     while score != WIN:
-        question, calc = games()
+        question, calc = game.play()
         print(question)
         answer = prompt.string("Your answer: ")
         if answer == str(calc):
