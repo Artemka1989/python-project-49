@@ -6,8 +6,8 @@ MAX_NUM_1 = 100  # Максимальное значение второго чи
 
 
 def play():
-    num = random.randint(0, MAX_NUM)
-    num_1 = random.randint(0, MAX_NUM_1)
+    num = random.randint(1, MAX_NUM)
+    num_1 = random.randint(1, MAX_NUM_1)
     question = f'Question: {num} {num_1}'
     if num > num_1:
         temp = num_1
