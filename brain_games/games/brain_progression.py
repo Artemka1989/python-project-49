@@ -23,5 +23,5 @@ def play():
         lst.append(str(num))
         num += num_1
     string = ' '.join(lst)
-    question = f'Question: {string}'
+    question = f'{string}'
     return question, calc

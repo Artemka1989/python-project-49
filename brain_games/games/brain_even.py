@@ -7,7 +7,7 @@ MAX_NUM = 100  # Максимальное число в игре
 
 def play():
     num = random.randint(0, MAX_NUM)
-    question = f'Question: {num}'
+    question = f'{num}'
     if num % 2 == 0:
         calc = 'yes'
     else:
