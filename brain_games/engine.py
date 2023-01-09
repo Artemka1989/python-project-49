@@ -13,12 +13,12 @@ def start(game):
     while score != WIN:
         question, calc = game.play()
         print(f'Question: {question}')
-        answer = prompt.string('Your answer: ')
-        if answer == str(calc):
+        answr = prompt.string('Your answer: ')
+        if answr == str(calc):
             print('Correct!')
             score += 1
         else:
-            print(f"'{answer}' is wrong answer ;(. Correct answer was '{calc}'.")
+            print(f"'{answr}' is wrong answer ;(. Correct answer was '{calc}'.")
             print(f"Let's try again, {name}!")
             score -= 1
             break
