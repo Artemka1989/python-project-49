@@ -10,10 +10,14 @@ def play():
     operator = random.choice('+-*')
     num2 = random.randint(0, MAX_NUM)
     question = f'{num1} {operator} {num2}'
+    return question, calc(num1, num2, operator)
+
+
+def calc(num1, num2, operator):
     if operator == '+':
         calc = num1 + num2
     if operator == '-':
         calc = num1 - num2
     if operator == '*':
         calc = num1 * num2
-    return question, calc
+    return calc
