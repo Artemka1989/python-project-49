@@ -11,17 +11,21 @@ MAX_HIDDEN_NUM = 5  # Максимльное значение, где будет
 
 def play():
     num = random.randint(MIN_NUM, MAX_NUM)
-    num_1 = num - 1  # Диапазон увеличение прогрессии
-    ran = random.randint(MIN_RANGE, MAX_RANGE)
-    num_2 = random.randint(MIN_HIDDEN_NUM, MAX_HIDDEN_NUM)
+    diaposon = num - 1  # Диапазон увеличение прогрессии
+    range_ = random.randint(MIN_RANGE, MAX_RANGE)
+    hidden_num = random.randint(MIN_HIDDEN_NUM, MAX_HIDDEN_NUM)
+    return progression(num, diaposon, range_, hidden_num)
+
+
+def progression(num, diaposon, range_, hidden_num):
     progression = []
-    for i in range(1, ran):
-        if i == num_2:
+    for i in range(1, range_):
+        if i == hidden_num:
             progression.append('..')
             calc = num
-            num += num_1
+            num += range_
         progression.append(str(num))
-        num += num_1
+        num += range_
     string = ' '.join(progression)
     question = f'{string}'
     return question, calc
